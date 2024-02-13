@@ -9,8 +9,5 @@ import java.util.Optional;
 public class MonthService {
     @Autowired
     private MonthRepository monthRepository;
-    public Optional<Month> findById(int monthNumber){
-        return monthRepository.findById(monthNumber);
-    }
 
 }
